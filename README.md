@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and run the development server:
 
 ```bash
 npm run dev
@@ -14,11 +14,18 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app is available at [http://localhost:3000](http://localhost:3000). Edit `src/app/page.tsx` and `src/app/globals.css` to customize the dashboard.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` starts the development server.
+- `npm run lint` checks the TypeScript and React code.
+- `npm run build` creates a production build.
+- `npm run start` serves the production build.
+
+## Nest Egg
+
+Nest Egg is a responsive personal finance dashboard built with Next.js 16, React 19, TypeScript, and Tailwind CSS 4. It provides a calm overview of balances, cash flow, spending categories, budgets, and recent activity.
 
 ## Learn More
 
